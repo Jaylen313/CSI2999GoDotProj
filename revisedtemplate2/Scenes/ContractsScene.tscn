@@ -1,0 +1,31 @@
+[gd_scene load_steps=2 format=3 uid="uid://jahwmokis5qo"]
+
+[ext_resource type="Script" path="res://Scripts/ContractsSceneScript.gd" id="1_4ht2m"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_4ht2m")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="ContractsBox" type="HBoxContainer" parent="."]
+offset_left = -578.0
+offset_top = -216.0
+offset_right = 578.0
+offset_bottom = 161.0
+
+[node name="ToDoTasksTitle" type="Label" parent="."]
+offset_left = -139.0
+offset_top = -288.0
+offset_right = 139.0
+offset_bottom = -217.0
+theme_override_font_sizes/font_size = 40
+text = "Contracts"
+horizontal_alignment = 1
+
+[node name="BackButton" type="Button" parent="."]
+offset_left = -22.0
+offset_top = 243.0
+offset_right = 24.0
+offset_bottom = 263.0
+text = "Back
+"

@@ -1,0 +1,154 @@
+[gd_scene load_steps=2 format=3 uid="uid://c4pvw14avy12v"]
+
+[ext_resource type="Script" path="res://Scripts/MainListScreenScript.gd" id="1_28h3e"]
+
+[node name="Control" type="Node2D"]
+position = Vector2(-86, -124)
+script = ExtResource("1_28h3e")
+
+[node name="HBoxContainer" type="VBoxContainer" parent="."]
+offset_left = -225.0
+offset_top = -132.0
+offset_right = 398.0
+offset_bottom = 242.0
+size_flags_vertical = 10
+size_flags_stretch_ratio = 0.0
+alignment = 1
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(85, 124)
+
+[node name="Contracts_Button" type="Button" parent="."]
+offset_left = 172.0
+offset_top = 375.0
+offset_right = 292.0
+offset_bottom = 409.0
+size_flags_stretch_ratio = 0.0
+text = "Contracts
+"
+
+[node name="EditTask_GoalButton" type="Button" parent="."]
+offset_left = 28.0
+offset_top = 375.0
+offset_right = 144.0
+offset_bottom = 409.0
+text = "Edit Task/goal
+"
+
+[node name="AddTask_GoalButton" type="Button" parent="."]
+offset_left = -116.0
+offset_top = 376.0
+offset_right = 4.0
+offset_bottom = 410.0
+text = "Add Task/Goal"
+
+[node name="ToDoTasksTitle" type="Label" parent="."]
+offset_left = -33.0
+offset_top = -200.0
+offset_right = 209.0
+offset_bottom = -145.0
+theme_override_font_sizes/font_size = 35
+text = "To -Do Tasks"
+horizontal_alignment = 1
+
+[node name="MonthlyTaskLabel" type="Label" parent="."]
+offset_left = 55.0
+offset_top = -119.0
+offset_right = 112.0
+offset_bottom = -96.0
+text = "Today"
+horizontal_alignment = 1
+
+[node name="ShortTermGoalLabel" type="Label" parent="."]
+offset_left = -56.0
+offset_top = 90.0
+offset_right = 226.0
+offset_bottom = 147.0
+
+[node name="LongTermGoalLabel" type="Label" parent="."]
+offset_left = -56.0
+offset_top = 160.0
+offset_right = 226.0
+offset_bottom = 217.0
+
+[node name="MonthlyTaskLabel2" type="Label" parent="."]
+offset_left = 48.0
+offset_top = -38.0
+offset_right = 125.0
+offset_bottom = -15.0
+text = "This week"
+horizontal_alignment = 1
+
+[node name="MonthlyTaskLabel3" type="Label" parent="."]
+offset_left = 50.0
+offset_top = 129.0
+offset_right = 120.0
+offset_bottom = 157.0
+theme_override_font_sizes/font_size = 20
+text = "GOALS"
+horizontal_alignment = 1
+
+[node name="MonthlyTaskLabel4" type="Label" parent="."]
+offset_left = 55.0
+offset_top = -148.0
+offset_right = 115.0
+offset_bottom = -120.0
+theme_override_font_sizes/font_size = 20
+text = "TASKS"
+horizontal_alignment = 1
+
+[node name="MonthlyTaskLabel5" type="Label" parent="."]
+offset_left = 18.0
+offset_top = 162.0
+offset_right = 152.0
+offset_bottom = 185.0
+text = "Short Term Goals"
+horizontal_alignment = 1
+
+[node name="MonthlyTaskLabel6" type="Label" parent="."]
+offset_left = 20.0
+offset_top = 252.0
+offset_right = 150.0
+offset_bottom = 275.0
+text = "Long Term Goals
+"
+horizontal_alignment = 1
+
+[node name="MonthlyTaskLabel7" type="Label" parent="."]
+offset_left = 43.0
+offset_top = 44.0
+offset_right = 130.0
+offset_bottom = 67.0
+text = "This Month
+"
+horizontal_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_left = -31.0
+offset_top = -16.0
+offset_right = 204.0
+offset_bottom = 44.0
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="."]
+offset_left = -32.0
+offset_top = 66.0
+offset_right = 203.0
+offset_bottom = 126.0
+
+[node name="VBoxContainer3" type="VBoxContainer" parent="."]
+offset_left = -30.0
+offset_top = -96.0
+offset_right = 205.0
+offset_bottom = -36.0
+
+[node name="VBoxContainer4" type="VBoxContainer" parent="."]
+offset_left = -31.0
+offset_top = 189.0
+offset_right = 204.0
+offset_bottom = 249.0
+
+[node name="VBoxContainer5" type="VBoxContainer" parent="."]
+offset_left = -32.0
+offset_top = 280.0
+offset_right = 203.0
+offset_bottom = 340.0
